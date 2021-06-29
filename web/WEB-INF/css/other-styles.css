@@ -1,0 +1,54 @@
+.add-game-form, .add-team-form, .add-sport-form, .update-game-form, .update-team-form, .update-sport-form {
+    padding: 10px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+.add-game-form input, .add-game-form select {
+    margin-bottom: 10px;
+}
+
+.add-game-form input[type="number"] {
+    width: 50px;
+}
+
+.games {
+    border-color: black;
+}
+
+.games tr:first-child {
+    background-color: cornflowerblue;
+}
+
+.games tr.search {
+    background-color: background;
+}
+
+.games tr {
+    background-color: deepskyblue;
+}
+
+.teams-list, .sports-list {
+    margin: 0px;
+    background-color: aqua;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.teams-list li, .sports-list li {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.error-message {
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    /*padding: 10px;*/
+}
+
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
